@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "serve-json": "json-server db.json --watch --port 4040",
     "lint": "next lint"
   },
   "dependencies": {
