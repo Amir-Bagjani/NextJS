@@ -11,7 +11,7 @@ const PostDetail = ({ post }) => {
     <h1>
       {post.id} - {post.title}
       <br />
-      <hr />"{post.body}"
+      <hr />{post.body}
     </h1>
   );
 };
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
       { params: { postId: "3" } },
     ],
     // paths,
-    fallback: true,
+    fallback: "blocking",
   };
 }
 
