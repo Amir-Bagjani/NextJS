@@ -1,40 +1,46 @@
 {
-    "articles": [
+    "events": [
         {
           "id": 1,
-          "category": "sport",
-          "title": "delectus aut autem",
-          "body": "quis ut nam facilis et officia qui"
+          "category": "sports",
+          "description": "sport delectus aut autem",
+          "title": "Event 1",
+          "date": "6 AUG"
         },
         {
           "id": 2,
-          "category": "politic",
-          "title": "quis ut nam facilis et officia qui",
-          "body": "quis ut nam facilis et officia qui"
+          "category": "foods",
+          "description": "politic delectus aut autem",
+          "title": "Event 2",
+          "date": "9 SEP"
         },
         {
           "id": 3,
-          "category": "sport",
-          "title": "fugiat veniam minus",
-          "body": "quis ut nam facilis et officia qui"
+          "category": "sports",
+          "description": "sport delectus aut autem",
+          "title": "Event 3",
+          "date": "25 AUG"
         },
         {
           "id": 4,
-          "category": "sport",
-          "title": "et porro tempora",
-          "body": "quis ut nam facilis et officia qui"
+          "category": "sports",
+          "description": "sport delectus aut autem",
+          "title": "Event 4",
+          "date": "5 DEC"
         },
         {
           "id": 5,
-          "category": "politic",
-          "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
-          "body": "quis ut nam facilis et officia qui"
+          "category": "foods",
+          "description": "politic delectus aut autem",
+          "title": "Event 5",
+          "date": "15 JUN"
         },
         {
           "id": 6,
-          "category": "sport",
-          "title": "qui ullam ratione quibusdam voluptatem quia omnis",
-          "body": "quis ut nam facilis et officia qui"
+          "category": "sports",
+          "description": "sport delectus aut autem",
+          "title": "Event 6",
+          "date": "25 FEB"
         }
     ],
     "dashboards":{

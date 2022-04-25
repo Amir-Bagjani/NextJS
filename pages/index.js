@@ -7,7 +7,10 @@ const Home = () => {
       
       <Link href={"/dashboard"}>
         <a>Go to Dashboard</a>
-      </Link>
+      </Link><br />
+      <Link href={"/event"}>
+        <a>Go to Event</a>
+      </Link><br />
     </>
   );
 };
