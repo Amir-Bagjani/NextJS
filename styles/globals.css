@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+main{
+  min-height: 60vh;
+}
+header, footer{
+  height: 100px;
+  background-color: rgb(20, 119, 64);
+  color: #fff;
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
