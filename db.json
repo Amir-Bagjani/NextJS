@@ -1,4 +1,42 @@
 {
+    "articles": [
+        {
+          "id": 1,
+          "category": "sport",
+          "title": "delectus aut autem",
+          "body": "quis ut nam facilis et officia qui"
+        },
+        {
+          "id": 2,
+          "category": "politic",
+          "title": "quis ut nam facilis et officia qui",
+          "body": "quis ut nam facilis et officia qui"
+        },
+        {
+          "id": 3,
+          "category": "sport",
+          "title": "fugiat veniam minus",
+          "body": "quis ut nam facilis et officia qui"
+        },
+        {
+          "id": 4,
+          "category": "sport",
+          "title": "et porro tempora",
+          "body": "quis ut nam facilis et officia qui"
+        },
+        {
+          "id": 5,
+          "category": "politic",
+          "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+          "body": "quis ut nam facilis et officia qui"
+        },
+        {
+          "id": 6,
+          "category": "sport",
+          "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+          "body": "quis ut nam facilis et officia qui"
+        }
+    ],
     "todos": [
         {
           "userId": 1,
