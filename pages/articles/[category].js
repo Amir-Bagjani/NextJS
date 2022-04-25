@@ -14,8 +14,14 @@ const CategoryDetail = ({articles, category}) => {
 
 export async function getServerSideProps(context) {
     const category = context.params.category
-    const res = await fetch(`http://localhost:4040/articles?category=${category}`);
-    const articles = await res.json();
+    const {res, req, query} = context
+    console.log(req.headers.cookie);
+    res.setHeader('Set-Cookie', ['name=Amir'])
+
+    console.log(query);
+
+    const response = await fetch(`http://localhost:4040/articles?category=${category}`);
+    const articles = await response.json();
 
     return {
         props: {

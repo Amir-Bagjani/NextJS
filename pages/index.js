@@ -5,9 +5,9 @@ const Home = () => {
     <>
       <h1>This Is Home Page</h1>
       
-      <Link href={"/todos"}>
+      {/* <Link href={"/todos"}>
         <a>Go to Todos</a>
-      </Link>
+      </Link> */}
     </>
   );
 };
