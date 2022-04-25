@@ -37,48 +37,10 @@
           "body": "quis ut nam facilis et officia qui"
         }
     ],
-    "todos": [
-        {
-          "userId": 1,
-          "id": 1,
-          "price": 501,
-          "title": "delectus aut autem",
-          "completed": false
-        },
-        {
-          "userId": 1,
-          "id": 2,
-          "price": 203,
-          "title": "quis ut nam facilis et officia qui",
-          "completed": false
-        },
-        {
-          "userId": 1,
-          "id": 3,
-          "price": 300,
-          "title": "fugiat veniam minus",
-          "completed": false
-        },
-        {
-          "userId": 1,
-          "id": 4,
-          "price": 400,
-          "title": "et porro tempora",
-          "completed": true
-        },
-        {
-          "userId": 1,
-          "id": 5,
-          "price": 500,
-          "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
-          "completed": false
-        },
-        {
-          "userId": 1,
-          "id": 6,
-          "price": 600,
-          "title": "qui ullam ratione quibusdam voluptatem quia omnis",
-          "completed": false
-        }
-    ]
+    "dashboards":{
+      "posts": 50,
+      "likes": 150,
+      "followers": 20,
+      "following": 90
+    } 
 }
