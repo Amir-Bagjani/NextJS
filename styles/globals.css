@@ -5,26 +5,22 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* transition: all 0.2s linear; */
+}
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+:root{
+  --text-color: #191919;
+  --bg-color: #f0f0f0;
 }
-
-main{
-  min-height: 60vh;
-}
-header, footer{
-  height: 100px;
-  background-color: rgb(20, 119, 64);
-  color: #fff;
-  font-size: 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+[data-theme="dark"] {
+  --text-color: #f0f0f0;
+  --bg-color: #191919;
 }

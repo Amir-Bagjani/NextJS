@@ -1,4 +1,4 @@
-.main{
+.main {
   background-color: var(--bg-color);
   padding-top: 5rem;
   min-height: 100vh;
@@ -8,9 +8,6 @@
   flex-direction: column;
   gap: 3rem;
 }
-.main h1{
+.main h1 {
   color: var(--text-color);
-}
-.main img{
-  border-radius: 50%;
 }
